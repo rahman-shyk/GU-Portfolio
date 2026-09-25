@@ -163,6 +163,8 @@
     {
       "name": "OmniFlow AI",
       "tagline": "Autonomous Multi-Agent Workflow Orchestrator",
+      "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "Abstract dark interface with connected workflow panels",
       "description": "An enterprise-grade workflow automation engine that leverages generative AI models to orchestrate asynchronous tasks, parse unstructured documents, and trigger distributed webhooks.",
       "category": "Cloud & AI",
       "featured": true,
@@ -174,6 +176,8 @@
     {
       "name": "CloudMetrics Hub",
       "tagline": "High-Throughput Real-time Telemetry Dashboard",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "Analytics dashboard with colorful charts and data visualizations",
       "description": "Zero-latency metrics monitoring engine rendering interactive WebSocket data streams, custom alert pipelines, and anomaly detection graphs for containerized workloads.",
       "category": "Full Stack",
       "featured": true,
@@ -185,6 +189,8 @@
     {
       "name": "PulseSync WebRTC",
       "tagline": "Encrypted P2P Collaborative Canvas & Video Workspace",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "People collaborating around a shared digital workspace",
       "description": "Ultra-low-latency real-time workspace with collaborative whiteboarding, screen broadcasting, end-to-end encrypted audio/video channels, and room management.",
       "category": "Full Stack",
       "featured": true,
@@ -196,6 +202,8 @@
     {
       "name": "DevForge CLI & Toolchain",
       "tagline": "Modern Scaffold & Environment Automation Suite",
+      "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "Developer terminal with code on a dark screen",
       "description": "High-speed developer CLI utility designed to bootstrap secure production-grade microservices with built-in observability, Dockerfiles, and GitHub Actions templates.",
       "category": "Cloud & AI",
       "featured": false,
@@ -207,6 +215,8 @@
     {
       "name": "AuraUI Design System",
       "tagline": "Glassmorphism Component Kit for Modern Web",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "Laptop displaying a modern web interface in a creative studio",
       "description": "A light-speed, accessible CSS & HTML UI library engineered with GPU-accelerated backdrop filters, fluid responsive layouts, and zero external dependencies.",
       "category": "Frontend/UI",
       "featured": false,
@@ -218,6 +228,8 @@
     {
       "name": "CryptLens Analytics",
       "tagline": "Decentralized Liquidity & Token Portfolio Tracker",
+      "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=85",
+      "imageAlt": "Abstract blue digital network representing decentralized finance",
       "description": "Real-time algorithmic financial dashboard consolidating cross-chain liquidity pool analytics, slippage indicators, and historical gas price trends.",
       "category": "Frontend/UI",
       "featured": false,
