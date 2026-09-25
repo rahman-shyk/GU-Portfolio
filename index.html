@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Rehman | Senior Full-Stack Engineer & Cloud Architect</title>
+  <meta name="description" content="Portfolio of Abdul Rehman - Senior Full-Stack Engineer specializing in scalable web systems, cloud architecture, and modern interactive experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glowing Mesh -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="logo" aria-label="Abdul Rehman Home">
+        <span class="logo-bracket">&lt;</span><span class="logo-text">AR</span><span class="logo-accent"> /&gt;</span>
+      </a>
+
+      <!-- Pure CSS Mobile Menu Trigger -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle Navigation Menu">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="resume.json" download="resume.json" class="btn btn-outline btn-sm">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>resume.json</span>
+          </a>
+          <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for new opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            Engineering scalable code &amp; 
+            <span class="gradient-text">exceptional digital</span> solutions.
+          </h1>
+
+          <p class="hero-description">
+            Hello, I'm <strong class="text-white">Abdul Rehman</strong> — a Senior Full-Stack Engineer and Cloud Architect with 5+ years of craft in distributed backend services, high-performance web frontends, and developer tooling.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>Explore Projects</span>
+              <svg class="icon arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="resume.json" download="resume.json" class="btn btn-secondary btn-lg">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>Download JSON Resume</span>
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <span class="metric-number">05+</span>
+              <span class="metric-label">Years of Experience</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">40+</span>
+              <span class="metric-label">Projects Shipped</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">99.9%</span>
+              <span class="metric-label">System Uptime</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">1.4k+</span>
+              <span class="metric-label">GitHub Stars</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Terminal Visual (Pure HTML & CSS Code Component) -->
+        <div class="hero-visual">
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-title">
+                <svg class="terminal-file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                  <polyline points="13 2 13 9 20 9"></polyline>
+                </svg>
+                <span>abdul-rehman.config.ts</span>
+              </div>
+              <div class="terminal-badge">LIVE</div>
+            </div>
+            <div class="terminal-body">
+              <div class="code-line"><span class="line-num">01</span><span class="token-keyword">import</span> { <span class="token-var">SoftwareEngineer</span> } <span class="token-keyword">from</span> <span class="token-string">'@universe/dev'</span>;</div>
+              <div class="code-line"><span class="line-num">02</span></div>
+              <div class="code-line"><span class="line-num">03</span><span class="token-keyword">export const</span> <span class="token-var">developer</span>: <span class="token-type">SoftwareEngineer</span> = {</div>
+              <div class="code-line"><span class="line-num">04</span>  <span class="token-prop">name</span>: <span class="token-string">'Abdul Rehman'</span>,</div>
+              <div class="code-line"><span class="line-num">05</span>  <span class="token-prop">role</span>: <span class="token-string">'Senior Full-Stack &amp; Cloud Architect'</span>,</div>
+              <div class="code-line"><span class="line-num">06</span>  <span class="token-prop">specialty</span>: [<span class="token-string">'Distributed Systems'</span>, <span class="token-string">'React / Next.js'</span>, <span class="token-string">'Node.js'</span>],</div>
+              <div class="code-line"><span class="line-num">07</span>  <span class="token-prop">coreFocus</span>: <span class="token-string">'Scale, Sub-second Latency &amp; Pixel Precision'</span>,</div>
+              <div class="code-line"><span class="line-num">08</span>  <span class="token-prop">coffeeLevel</span>: <span class="token-string">'100%'</span>,</div>
+              <div class="code-line"><span class="line-num">09</span>  <span class="token-prop">status</span>: <span class="token-string">'Building high-impact software'</span>,</div>
+              <div class="code-line"><span class="line-num">10</span>  <span class="token-prop">hireReady</span>: <span class="token-boolean">true</span></div>
+              <div class="code-line"><span class="line-num">11</span>};</div>
+              <div class="code-line"><span class="line-num">12</span></div>
+              <div class="code-line"><span class="line-num">13</span><span class="token-comment">// Ready to collaborate and ship production features</span></div>
+              <div class="code-line"><span class="line-num">14</span><span class="token-func">console</span>.<span class="token-func">log</span>(<span class="token-string">`Welcome to my developer portfolio! 🚀`</span>);<span class="cursor-blink">_</span></div>
+            </div>
+            <div class="terminal-footer">
+              <span class="branch-name">
+                <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="6" y1="3" x2="6" y2="15"></line>
+                  <circle cx="18" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M18 9a9 9 0 0 1-9 9"></path>
+                </svg>
+                main
+              </span>
+              <span class="status-indicator">● UTF-8</span>
+              <span class="status-indicator">TypeScript</span>
+              <span class="status-indicator">⚡ 0 errors</span>
+            </div>
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="floating-chip chip-1">
+            <span class="chip-icon">⚡</span>
+            <span>Sub-50ms APIs</span>
+          </div>
+          <div class="floating-chip chip-2">
+            <span class="chip-icon">🛡️</span>
+            <span>Zero-Downtime CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-badge">ABOUT ME</div>
+        <h2 class="section-title">Bridging creative vision with <span class="gradient-text">robust systems</span></h2>
+        <p class="section-subtitle">A glimpse into my background, technical philosophy, and engineering standards.</p>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel">
+            <h3 class="about-heading">The Engineer Behind the Code</h3>
+            <p class="about-text">
+              I am <strong>Abdul Rehman</strong>, a passionate software craftsman committed to writing clean, maintainable, and highly resilient applications. My journey spans from building pixel-perfect, accessible user interfaces to architecting mission-critical microservice architectures on cloud infrastructure.
+            </p>
+            <p class="about-text">
+              I believe great software is at the intersection of empathetic user experience and resilient distributed engineering. Whether it is tuning complex database queries, setting up automated CI/CD pipelines, or crafting smooth CSS micro-interactions, I treat every project with utmost attention to detail.
+            </p>
+            
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">🎯</span>
+                <div>
+                  <h4>User-Centric Architecture</h4>
+                  <p>Building intuitive interfaces that adhere strictly to WCAG 2.1 accessibility and Core Web Vitals.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">⚡</span>
+                <div>
+                  <h4>High Performance First</h4>
+                  <p>Optimizing throughput, edge caching, and memory efficiency for scale and speed.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🔒</span>
+                <div>
+                  <h4>Security &amp; Reliability</h4>
+                  <p>Implementing zero-trust principles, automated test coverage, and idempotent cloud pipelines.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="profile-card glass-panel">
+              <div class="profile-avatar-wrapper">
+                <div class="avatar-glow"></div>
+                <div class="avatar-initials">AR</div>
+              </div>
+              <h3 class="profile-name">Abdul Rehman</h3>
+              <p class="profile-title">Full-Stack Engineer &amp; Architect</p>
+              
+              <ul class="profile-details-list">
+                <li>
+                  <span class="detail-label">Location:</span>
+                  <span class="detail-value">San Francisco, CA</span>
+                </li>
+                <li>
+                  <span class="detail-label">Experience:</span>
+                  <span class="detail-value">5+ Years</span>
+                </li>
+                <li>
+                  <span class="detail-label">Specialty:</span>
+                  <span class="detail-value">TypeScript, Node, Cloud</span>
+                </li>
+                <li>
+                  <span class="detail-label">Availability:</span>
+                  <span class="badge-success">Immediate / Open</span>
+                </li>
+                <li>
+                  <span class="detail-label">Data Schema:</span>
+                  <a href="resume.json" class="detail-link">resume.json (Standard)</a>
+                </li>
+              </ul>
+
+              <div class="social-links-row">
+                <a href="https://github.com/abdulrehman-dev" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+                <a href="https://linkedin.com/in/abdul-rehman" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <a href="https://twitter.com/abdulrehman_io" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                  </svg>
+                </a>
+                <a href="mailto:abdul.rehman.dev@example.com" class="social-icon-btn" aria-label="Email">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Tools Section -->
+    <section id="skills" class="section section-dark">
+      <div class="container">
+        <div class="section-badge">CAPABILITIES</div>
+        <h2 class="section-title">Technical Skills &amp; <span class="gradient-text">Toolset</span></h2>
+        <p class="section-subtitle">Proficiencies cultivated over 5+ years of engineering production-grade software.</p>
+
+        <div class="skills-categories-grid">
+          <!-- Category 1: Frontend -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon-box">🎨</div>
+              <div>
+                <h3 class="category-title">Frontend Engineering</h3>
+                <p class="category-desc">Modern, responsive, and accessible UI/UX</p>
+              </div>
+            </div>
+            <div class="skill-bars-list">
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">HTML5 &amp; Semantic Markup</span>
+                  <span class="skill-percent">98%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-98"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">Modern CSS3, Animations &amp; Grid</span>
+                  <span class="skill-percent">95%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-95"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">TypeScript &amp; JavaScript (ESNext)</span>
+                  <span class="skill-percent">94%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-94"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">React &amp; Next.js</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-90"></div></div>
+              </div>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">WebGL</span>
+              <span class="tag">Responsive Design</span>
+              <span class="tag">WCAG 2.1</span>
+              <span class="tag">State Management</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon-box">⚙️</div>
+              <div>
+                <h3 class="category-title">Backend &amp; APIs</h3>
+                <p class="category-desc">Distributed services, streaming &amp; logic</p>
+              </div>
+            </div>
+            <div class="skill-bars-list">
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">Node.js &amp; Express / NestJS</span>
+                  <span class="skill-percent">96%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-96"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">RESTful &amp; GraphQL Architectures</span>
+                  <span class="skill-percent">92%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-92"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">Python &amp; FastAPI / Django</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-88"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">Microservices &amp; Event-Driven (Kafka)</span>
+                  <span class="skill-percent">86%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-86"></div></div>
+              </div>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="tag">WebSockets</span>
+              <span class="tag">gRPC</span>
+              <span class="tag">JWT / OAuth2</span>
+              <span class="tag">Async Queues</span>
+              <span class="tag">Rate Limiting</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Cloud & DevOps -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon-box">☁️</div>
+              <div>
+                <h3 class="category-title">Cloud &amp; Databases</h3>
+                <p class="category-desc">Resilient storage, containers &amp; CI/CD</p>
+              </div>
+            </div>
+            <div class="skill-bars-list">
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">PostgreSQL &amp; Query Optimization</span>
+                  <span class="skill-percent">92%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-92"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">Docker &amp; Container Orchestration</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-90"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">AWS Cloud (S3, EC2, Lambda, ECS)</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-85"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-meta">
+                  <span class="skill-name">Redis In-Memory Caching</span>
+                  <span class="skill-percent">91%</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill fill-91"></div></div>
+              </div>
+            </div>
+            <div class="skill-tags-cloud">
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Terraform</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Prisma ORM</span>
+              <span class="tag">GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Tools Carousel / Grid -->
+        <div class="tools-section">
+          <h3 class="tools-heading">Daily Developer Tools &amp; Ecosystem</h3>
+          <div class="tools-grid">
+            <div class="tool-badge">
+              <span class="tool-icon">🐙</span>
+              <span class="tool-name">Git &amp; GitHub</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">🐳</span>
+              <span class="tool-name">Docker</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">☸️</span>
+              <span class="tool-name">Kubernetes</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">🟧</span>
+              <span class="tool-name">AWS Cloud</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">🚀</span>
+              <span class="tool-name">Postman</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">⚡</span>
+              <span class="tool-name">Vite</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">🎨</span>
+              <span class="tool-name">Figma</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">🐧</span>
+              <span class="tool-name">Linux / Bash</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">⚙️</span>
+              <span class="tool-name">Terraform</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">📊</span>
+              <span class="tool-name">Datadog</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">🧪</span>
+              <span class="tool-name">Jest &amp; Vitest</span>
+            </div>
+            <div class="tool-badge">
+              <span class="tool-icon">🛡️</span>
+              <span class="tool-name">Sentry</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section with Pure CSS Filter Mechanism -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-badge">PORTFOLIO</div>
+        <h2 class="section-title">Featured Engineering <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world applications built with high throughput, sleek aesthetics, and rock-solid code.</p>
+
+        <!-- Pure CSS Interactive Filter (Zero JS) -->
+        <div class="projects-filter-wrapper">
+          <input type="radio" id="filter-all" name="project-filter" class="filter-radio" checked>
+          <input type="radio" id="filter-fullstack" name="project-filter" class="filter-radio">
+          <input type="radio" id="filter-cloud" name="project-filter" class="filter-radio">
+          <input type="radio" id="filter-ui" name="project-filter" class="filter-radio">
+
+          <div class="filter-controls">
+            <label for="filter-all" class="filter-btn filter-btn-all">All Projects (6)</label>
+            <label for="filter-fullstack" class="filter-btn filter-btn-fullstack">Full Stack</label>
+            <label for="filter-cloud" class="filter-btn filter-btn-cloud">Cloud &amp; AI</label>
+            <label for="filter-ui" class="filter-btn filter-btn-ui">Frontend / UI</label>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1: OmniFlow AI -->
+            <article class="project-card glass-panel cat-cloud cat-fullstack">
+              <div class="project-thumbnail thumbnail-gradient-1">
+                <div class="card-overlay-badge">Featured • AI Workflow</div>
+                <div class="project-illustration">
+                  <div class="mockup-node node-a">Input Data</div>
+                  <div class="mockup-line"></div>
+                  <div class="mockup-node node-b">AI Agents</div>
+                  <div class="mockup-line"></div>
+                  <div class="mockup-node node-c">Webhook</div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta-row">
+                  <span class="project-category">Cloud &amp; AI</span>
+                  <span class="project-stars">★ 1.4k Stars</span>
+                </div>
+                <h3 class="project-title">OmniFlow AI</h3>
+                <p class="project-tagline">Autonomous Multi-Agent Workflow Orchestrator</p>
+                <p class="project-desc">
+                  An enterprise-grade workflow automation engine that leverages generative AI models to orchestrate asynchronous tasks, parse complex unstructured documents, and trigger distributed webhooks.
+                </p>
+                <div class="project-tags">
+                  <span>Next.js</span>
+                  <span>TypeScript</span>
+                  <span>FastAPI</span>
+                  <span>Redis</span>
+                  <span>Docker</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abdulrehman-dev/omniflow-ai" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    Source Code
+                  </a>
+                  <a href="https://omniflow-ai.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg class="icon arrow-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: CloudMetrics Hub -->
+            <article class="project-card glass-panel cat-fullstack">
+              <div class="project-thumbnail thumbnail-gradient-2">
+                <div class="card-overlay-badge">Real-time Telemetry</div>
+                <div class="project-illustration chart-ill">
+                  <div class="bar bar-1"></div>
+                  <div class="bar bar-2"></div>
+                  <div class="bar bar-3"></div>
+                  <div class="bar bar-4"></div>
+                  <div class="bar bar-5"></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta-row">
+                  <span class="project-category">Full Stack</span>
+                  <span class="project-stars">⚡ Sub-50ms</span>
+                </div>
+                <h3 class="project-title">CloudMetrics Hub</h3>
+                <p class="project-tagline">High-Throughput Real-time Telemetry Dashboard</p>
+                <p class="project-desc">
+                  Zero-latency metrics monitoring engine rendering interactive WebSocket data streams, custom alert pipelines, and anomaly detection graphs for containerized production clusters.
+                </p>
+                <div class="project-tags">
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Node.js</span>
+                  <span>WebSockets</span>
+                  <span>ClickHouse</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abdulrehman-dev/cloud-metrics-hub" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    Source Code
+                  </a>
+                  <a href="https://cloudmetrics.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg class="icon arrow-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: PulseSync WebRTC -->
+            <article class="project-card glass-panel cat-fullstack cat-ui">
+              <div class="project-thumbnail thumbnail-gradient-3">
+                <div class="card-overlay-badge">Collaborative Workspace</div>
+                <div class="project-illustration peer-ill">
+                  <div class="peer-dot dot-a"></div>
+                  <div class="peer-pulse"></div>
+                  <div class="peer-dot dot-b"></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta-row">
+                  <span class="project-category">Full Stack / UI</span>
+                  <span class="project-stars">🛡️ E2EE P2P</span>
+                </div>
+                <h3 class="project-title">PulseSync WebRTC</h3>
+                <p class="project-tagline">Encrypted P2P Collaborative Canvas &amp; Video</p>
+                <p class="project-desc">
+                  Ultra-low-latency real-time workspace featuring collaborative canvas whiteboarding, screen broadcasting, end-to-end encrypted audio/video channels, and room state sync.
+                </p>
+                <div class="project-tags">
+                  <span>WebRTC</span>
+                  <span>HTML5 Canvas</span>
+                  <span>Socket.io</span>
+                  <span>CSS3</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abdulrehman-dev/pulsesync-webrtc" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    Source Code
+                  </a>
+                  <a href="https://pulsesync.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg class="icon arrow-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4: DevForge CLI -->
+            <article class="project-card glass-panel cat-cloud">
+              <div class="project-thumbnail thumbnail-gradient-4">
+                <div class="card-overlay-badge">Dev Toolchain</div>
+                <div class="project-illustration cli-ill">
+                  <code>$ devforge init --prod</code>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta-row">
+                  <span class="project-category">Cloud &amp; DevOps</span>
+                  <span class="project-stars">📦 18k Downloads</span>
+                </div>
+                <h3 class="project-title">DevForge CLI</h3>
+                <p class="project-tagline">Modern Scaffold &amp; Environment Automation Suite</p>
+                <p class="project-desc">
+                  High-speed developer CLI utility designed to bootstrap secure production-grade microservices with built-in observability, Dockerfiles, and GitHub Actions templates.
+                </p>
+                <div class="project-tags">
+                  <span>Go</span>
+                  <span>Bash</span>
+                  <span>Docker</span>
+                  <span>GitHub Actions</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abdulrehman-dev/devforge-cli" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    Source Code
+                  </a>
+                  <a href="https://devforge.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg class="icon arrow-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 5: AuraUI Design System -->
+            <article class="project-card glass-panel cat-ui">
+              <div class="project-thumbnail thumbnail-gradient-5">
+                <div class="card-overlay-badge">Design System</div>
+                <div class="project-illustration ui-ill">
+                  <div class="ui-button-mockup">Glass Button</div>
+                  <div class="ui-toggle-mockup"><span></span></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta-row">
+                  <span class="project-category">Frontend / UI</span>
+                  <span class="project-stars">💎 Zero-JS</span>
+                </div>
+                <h3 class="project-title">AuraUI Design Tokens</h3>
+                <p class="project-tagline">Glassmorphic Pure CSS Component Library</p>
+                <p class="project-desc">
+                  A light-speed, accessible CSS3 UI library engineered with GPU-accelerated backdrop filters, fluid responsive layouts, customizable CSS variables, and zero external dependencies.
+                </p>
+                <div class="project-tags">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Design Tokens</span>
+                  <span>WCAG 2.1</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abdulrehman-dev/auraui-tokens" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    Source Code
+                  </a>
+                  <a href="https://auraui.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg class="icon arrow-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 6: CryptLens Analytics -->
+            <article class="project-card glass-panel cat-ui cat-fullstack">
+              <div class="project-thumbnail thumbnail-gradient-6">
+                <div class="card-overlay-badge">FinTech Dashboard</div>
+                <div class="project-illustration crypt-ill">
+                  <div class="spark-line"></div>
+                  <div class="crypto-stat">$12.4M Volume</div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta-row">
+                  <span class="project-category">Frontend / Full Stack</span>
+                  <span class="project-stars">📈 $12M+ Volume</span>
+                </div>
+                <h3 class="project-title">CryptLens Analytics</h3>
+                <p class="project-tagline">Decentralized Liquidity &amp; Token Tracker</p>
+                <p class="project-desc">
+                  Real-time algorithmic financial dashboard consolidating cross-chain liquidity pool analytics, slippage indicators, gas volatility trackers, and historical wallet positions.
+                </p>
+                <div class="project-tags">
+                  <span>TypeScript</span>
+                  <span>Next.js</span>
+                  <span>Tailwind CSS</span>
+                  <span>Chart.js</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abdulrehman-dev/cryptlens-analytics" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    Source Code
+                  </a>
+                  <a href="https://cryptlens.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg class="icon arrow-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section section-dark">
+      <div class="container">
+        <div class="section-badge">CAREER PATH</div>
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Chronological record of roles, leadership, and production impact.</p>
+
+        <div class="timeline">
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Senior Full-Stack Engineer</h3>
+                  <div class="company-name">TechVanguard Labs</div>
+                </div>
+                <div class="timeline-badge-group">
+                  <span class="badge-date">2023 — Present</span>
+                  <span class="badge-type">Full-time • Hybrid</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Lead engineer architecting next-generation distributed SaaS platforms and high-throughput real-time APIs.
+              </p>
+              <ul class="role-bullets">
+                <li>Architected an event-driven data streaming engine handling 12M+ daily events using Node.js, Kafka, and Redis.</li>
+                <li>Refactored legacy monolith into modular TypeScript microservices, reducing deployment latency by 65%.</li>
+                <li>Mentored a team of 8 junior and mid-level engineers, establishing company-wide CI/CD standards and code review practices.</li>
+              </ul>
+              <div class="tech-pills-row">
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Next.js</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">GraphQL</span>
+                <span class="tech-pill">Kafka</span>
+                <span class="tech-pill">AWS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Full-Stack Software Engineer</h3>
+                  <div class="company-name">Nexus Cloud Solutions</div>
+                </div>
+                <div class="timeline-badge-group">
+                  <span class="badge-date">2021 — 2023</span>
+                  <span class="badge-type">Remote</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Engineered customer-facing cloud management dashboards and robust backend services with 99.98% uptime.
+              </p>
+              <ul class="role-bullets">
+                <li>Constructed intuitive real-time monitoring dashboards in React, eliminating 40% of internal incident triage tickets.</li>
+                <li>Optimized complex PostgreSQL queries and database indexing, slashing p99 latency from 1.2s to 180ms.</li>
+                <li>Integrated multi-tenant OAuth2/SSO authorization flows for enterprise customers (Okta, Azure AD, Google Workspace).</li>
+              </ul>
+              <div class="tech-pills-row">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Express</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">Redis</span>
+                <span class="tech-pill">Docker</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Frontend &amp; UI Developer</h3>
+                  <div class="company-name">PixelCraft Studios</div>
+                </div>
+                <div class="timeline-badge-group">
+                  <span class="badge-date">2019 — 2021</span>
+                  <span class="badge-type">Seattle, WA</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Built high-performance, accessible web interfaces and design systems for enterprise clients.
+              </p>
+              <ul class="role-bullets">
+                <li>Designed and published an internal design system component library adopted across 14 commercial client web apps.</li>
+                <li>Achieved 100/100 Google Lighthouse scores across Core Web Vitals on flagship client e-commerce portals.</li>
+                <li>Built responsive, accessible cross-browser animations and interactive data visualizations using modern CSS and Canvas.</li>
+              </ul>
+              <div class="tech-pills-row">
+                <span class="tech-pill">JavaScript ES6+</span>
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">CSS3 Animations</span>
+                <span class="tech-pill">Sass</span>
+                <span class="tech-pill">Webpack</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-badge">ACADEMICS &amp; CREDENTIALS</div>
+        <h2 class="section-title">Education &amp; <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">Verified formal background and industry certifications.</p>
+
+        <div class="credentials-grid">
+          <!-- Education Column -->
+          <div class="credential-column">
+            <h3 class="column-title">
+              <svg class="icon-title" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              Academic Background
+            </h3>
+
+            <div class="academic-card glass-panel">
+              <div class="academic-badge">3.85 GPA • Summa Cum Laude</div>
+              <h4 class="degree-title">Bachelor of Science in Computer Science &amp; Engineering</h4>
+              <p class="institution-name">University of California, Berkeley</p>
+              <p class="degree-years">2015 — 2019</p>
+
+              <div class="coursework-box">
+                <span class="box-label">Key Coursework &amp; Honors:</span>
+                <div class="course-tags">
+                  <span>Data Structures</span>
+                  <span>Distributed Systems</span>
+                  <span>Database Systems</span>
+                  <span>Operating Systems</span>
+                  <span>Computer Networks</span>
+                  <span>HCI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="credential-column">
+            <h3 class="column-title">
+              <svg class="icon-title" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+              Industry Certifications
+            </h3>
+
+            <div class="cert-cards-list">
+              <!-- Cert 1 -->
+              <div class="cert-card glass-panel">
+                <div class="cert-icon-wrap">☁️</div>
+                <div class="cert-content">
+                  <h4 class="cert-name">AWS Certified Solutions Architect – Associate</h4>
+                  <div class="cert-issuer">Amazon Web Services • 2023</div>
+                  <div class="cert-id">Credential ID: <code>AWS-PSA-908124</code></div>
+                </div>
+              </div>
+
+              <!-- Cert 2 -->
+              <div class="cert-card glass-panel">
+                <div class="cert-icon-wrap">🌐</div>
+                <div class="cert-content">
+                  <h4 class="cert-name">Meta Front-End Developer Professional</h4>
+                  <div class="cert-issuer">Meta / Coursera • 2022</div>
+                  <div class="cert-id">Credential ID: <code>META-FED-77192</code></div>
+                </div>
+              </div>
+
+              <!-- Cert 3 -->
+              <div class="cert-card glass-panel">
+                <div class="cert-icon-wrap">🐳</div>
+                <div class="cert-content">
+                  <h4 class="cert-name">Docker Certified Associate (DCA)</h4>
+                  <div class="cert-issuer">Docker Inc. • 2021</div>
+                  <div class="cert-id">Credential ID: <code>DCA-892150</code></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+      <div class="container">
+        <div class="section-badge">GET IN TOUCH</div>
+        <h2 class="section-title">Let's build something <span class="gradient-text">remarkable</span></h2>
+        <p class="section-subtitle">Whether you have a product to build, an engineering leadership role, or a consulting opportunity.</p>
+
+        <div class="contact-grid">
+          <!-- Contact Info Card -->
+          <div class="contact-info-card glass-panel">
+            <h3 class="contact-card-heading">Contact Information</h3>
+            <p class="contact-card-desc">
+              I'm always open to discussing new projects, technical challenges, open-source initiatives, or freelance collaborations.
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:abdul.rehman.dev@example.com" class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Direct Email</span>
+                  <span class="contact-item-val">abdul.rehman.dev@example.com</span>
+                </div>
+              </a>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Phone</span>
+                  <span class="contact-item-val">+1 (555) 382-9104</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-item-label">Location &amp; Timezone</span>
+                  <span class="contact-item-val">San Francisco, CA (PST / UTC-8)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="contact-socials-box">
+              <span class="socials-box-title">Follow &amp; Connect:</span>
+              <div class="social-pills-row">
+                <a href="https://github.com/abdulrehman-dev" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  GitHub
+                </a>
+                <a href="https://linkedin.com/in/abdul-rehman" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  LinkedIn
+                </a>
+                <a href="https://twitter.com/abdulrehman_io" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  Twitter / X
+                </a>
+                <a href="https://leetcode.com/abdul_codes" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  LeetCode
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form (Pure HTML5 & CSS) -->
+          <div class="contact-form-card glass-panel">
+            <h3 class="contact-card-heading">Send a Message</h3>
+            <p class="contact-card-desc">Fill out the details below and I will get back to you within 24 hours.</p>
+
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name</label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Sarah Connor" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address</label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. sarah@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Project Inquiry / Job Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" name="message" rows="5" class="form-textarea" placeholder="Tell me about your project, timeline, and goals..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+                <svg class="icon arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="logo">
+          <span class="logo-bracket">&lt;</span><span class="logo-text">AR</span><span class="logo-accent"> /&gt;</span>
+        </a>
+        <p class="footer-copy">
+          Designed &amp; Engineered with pure HTML &amp; CSS by <strong>Abdul Rehman</strong>. Powered by clean architecture.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.json" download="resume.json">resume.json</a>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="btn-top" aria-label="Back to top">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+          <span>Top</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

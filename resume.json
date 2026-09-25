@@ -1,0 +1,264 @@
+{
+  "basics": {
+    "name": "Abdul Rehman",
+    "label": "Senior Full-Stack Engineer & Cloud Architect",
+    "image": "assets/avatar.jpg",
+    "email": "abdul.rehman.dev@example.com",
+    "phone": "+1 (555) 382-9104",
+    "url": "https://abdulrehman.dev",
+    "summary": "Forward-thinking Full-Stack Engineer with 5+ years of experience designing and deploying scalable, high-performance web applications, distributed microservices, and modern user experiences. Passionate about clean architecture, developer tooling, and cloud automation.",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "countryCode": "US",
+      "postalCode": "94107"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "abdulrehman-dev",
+        "url": "https://github.com/abdulrehman-dev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "abdul-rehman",
+        "url": "https://linkedin.com/in/abdul-rehman"
+      },
+      {
+        "network": "Twitter",
+        "username": "abdulrehman_io",
+        "url": "https://twitter.com/abdulrehman_io"
+      },
+      {
+        "network": "LeetCode",
+        "username": "abdul_codes",
+        "url": "https://leetcode.com/abdul_codes"
+      },
+      {
+        "network": "Discord",
+        "username": "abdulrehman#4082",
+        "url": "https://discord.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "TechVanguard Labs",
+      "position": "Senior Full-Stack Engineer",
+      "website": "https://techvanguard.example.com",
+      "startDate": "2023-03",
+      "endDate": "Present",
+      "location": "San Francisco, CA (Hybrid)",
+      "summary": "Lead engineer architecting next-generation distributed SaaS platforms and high-throughput real-time APIs.",
+      "highlights": [
+        "Architected an event-driven data streaming engine handling 12M+ daily events using Node.js, Kafka, and Redis.",
+        "Refactored legacy monolith into modular TypeScript microservices, reducing deployment latency by 65%.",
+        "Mentored a team of 8 junior and mid-level engineers, establishing company-wide CI/CD standards and code review practices."
+      ],
+      "technologies": ["TypeScript", "Next.js", "Node.js", "GraphQL", "PostgreSQL", "Kafka", "Docker", "AWS"]
+    },
+    {
+      "company": "Nexus Cloud Solutions",
+      "position": "Full-Stack Software Engineer",
+      "website": "https://nexuscloud.example.com",
+      "startDate": "2021-06",
+      "endDate": "2023-02",
+      "location": "Austin, TX (Remote)",
+      "summary": "Engineered customer-facing cloud management dashboards and robust backend services with 99.98% uptime.",
+      "highlights": [
+        "Constructed intuitive real-time monitoring dashboards in React, eliminating 40% of internal incident triage tickets.",
+        "Optimized complex PostgreSQL queries and database indexing, slashing p99 latency from 1.2s to 180ms.",
+        "Integrated multi-tenant OAuth2/SSO authorization flows for enterprise customers (Okta, Azure AD, Google Workspace)."
+      ],
+      "technologies": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Redis", "Docker", "Kubernetes"]
+    },
+    {
+      "company": "PixelCraft Studios",
+      "position": "Frontend & UI Developer",
+      "website": "https://pixelcraft.example.com",
+      "startDate": "2019-08",
+      "endDate": "2021-05",
+      "location": "Seattle, WA",
+      "summary": "Built high-performance, accessible web interfaces and design systems for enterprise clients.",
+      "highlights": [
+        "Designed and published an internal design system component library adopted across 14 commercial client web apps.",
+        "Achieved 100/100 Google Lighthouse scores across Core Web Vitals (LCP, CLS, FID) on flagship client e-commerce portals.",
+        "Built responsive, accessible cross-browser animations and interactive data visualizations using modern CSS and Canvas."
+      ],
+      "technologies": ["JavaScript (ES6+)", "React", "CSS3", "HTML5", "Sass", "Webpack", "Jest", "Figma"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "area": "Computer Science & Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-09",
+      "endDate": "2019-05",
+      "gpa": "3.85 / 4.0",
+      "honors": ["Dean's Honor List (All Semesters)", "Summa Cum Laude"],
+      "courses": [
+        "Data Structures & Algorithms",
+        "Distributed Systems",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Human-Computer Interaction"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "items": [
+        { "name": "HTML5 & Semantic Markup", "level": "Expert" },
+        { "name": "Modern CSS3 & Animations", "level": "Expert" },
+        { "name": "JavaScript (ES6+) / TypeScript", "level": "Expert" },
+        { "name": "React / Next.js", "level": "Advanced" },
+        { "name": "Vue.js / Nuxt", "level": "Intermediate" },
+        { "name": "Tailwind CSS & Design Systems", "level": "Expert" }
+      ]
+    },
+    {
+      "category": "Backend & Cloud",
+      "items": [
+        { "name": "Node.js & Express / NestJS", "level": "Expert" },
+        { "name": "Python & FastAPI / Django", "level": "Advanced" },
+        { "name": "RESTful & GraphQL APIs", "level": "Expert" },
+        { "name": "PostgreSQL & Prisma ORM", "level": "Advanced" },
+        { "name": "Redis & Caching Strategies", "level": "Advanced" },
+        { "name": "Docker & Containerization", "level": "Advanced" },
+        { "name": "AWS (S3, EC2, Lambda, ECS)", "level": "Advanced" }
+      ]
+    },
+    {
+      "category": "Architecture & Engineering",
+      "items": [
+        { "name": "Microservices Architecture", "level": "Advanced" },
+        { "name": "CI/CD Pipeline Automation", "level": "Advanced" },
+        { "name": "Web Performance Optimization", "level": "Expert" },
+        { "name": "Test-Driven Development (TDD)", "level": "Advanced" },
+        { "name": "Web Accessibility (WCAG 2.1 AA)", "level": "Expert" },
+        { "name": "Security & OAuth2/JWT", "level": "Advanced" }
+      ]
+    }
+  ],
+  "tools": [
+    "Git & GitHub",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "AWS",
+    "Postman",
+    "VS Code",
+    "Vite",
+    "Webpack",
+    "Figma",
+    "Linux / Bash",
+    "GitHub Actions",
+    "Datadog",
+    "Sentry"
+  ],
+  "projects": [
+    {
+      "name": "OmniFlow AI",
+      "tagline": "Autonomous Multi-Agent Workflow Orchestrator",
+      "description": "An enterprise-grade workflow automation engine that leverages generative AI models to orchestrate asynchronous tasks, parse unstructured documents, and trigger distributed webhooks.",
+      "category": "Cloud & AI",
+      "featured": true,
+      "technologies": ["Next.js", "TypeScript", "Python", "FastAPI", "Redis", "Docker", "AWS"],
+      "github": "https://github.com/abdulrehman-dev/omniflow-ai",
+      "demo": "https://omniflow-ai.example.com",
+      "stats": "1.4k GitHub Stars • 250k Monthly API Calls"
+    },
+    {
+      "name": "CloudMetrics Hub",
+      "tagline": "High-Throughput Real-time Telemetry Dashboard",
+      "description": "Zero-latency metrics monitoring engine rendering interactive WebSocket data streams, custom alert pipelines, and anomaly detection graphs for containerized workloads.",
+      "category": "Full Stack",
+      "featured": true,
+      "technologies": ["React", "TypeScript", "Node.js", "WebSockets", "ClickHouse", "Tailwind CSS"],
+      "github": "https://github.com/abdulrehman-dev/cloud-metrics-hub",
+      "demo": "https://cloudmetrics.example.com",
+      "stats": "Sub-50ms latency • 99.99% Uptime"
+    },
+    {
+      "name": "PulseSync WebRTC",
+      "tagline": "Encrypted P2P Collaborative Canvas & Video Workspace",
+      "description": "Ultra-low-latency real-time workspace with collaborative whiteboarding, screen broadcasting, end-to-end encrypted audio/video channels, and room management.",
+      "category": "Full Stack",
+      "featured": true,
+      "technologies": ["WebRTC", "Canvas API", "Node.js", "Socket.io", "CSS3 Animations"],
+      "github": "https://github.com/abdulrehman-dev/pulsesync-webrtc",
+      "demo": "https://pulsesync.example.com",
+      "stats": "E2EE Security • 60 FPS Canvas"
+    },
+    {
+      "name": "DevForge CLI & Toolchain",
+      "tagline": "Modern Scaffold & Environment Automation Suite",
+      "description": "High-speed developer CLI utility designed to bootstrap secure production-grade microservices with built-in observability, Dockerfiles, and GitHub Actions templates.",
+      "category": "Cloud & AI",
+      "featured": false,
+      "technologies": ["Go", "Bash", "Docker", "GitHub Actions", "REST API"],
+      "github": "https://github.com/abdulrehman-dev/devforge-cli",
+      "demo": "https://devforge.example.com",
+      "stats": "18k+ Downloads on npm/brew"
+    },
+    {
+      "name": "AuraUI Design System",
+      "tagline": "Glassmorphism Component Kit for Modern Web",
+      "description": "A light-speed, accessible CSS & HTML UI library engineered with GPU-accelerated backdrop filters, fluid responsive layouts, and zero external dependencies.",
+      "category": "Frontend/UI",
+      "featured": false,
+      "technologies": ["HTML5", "CSS3", "Design Tokens", "Figma", "WCAG 2.1"],
+      "github": "https://github.com/abdulrehman-dev/auraui-tokens",
+      "demo": "https://auraui.example.com",
+      "stats": "100% Lighthouse Score • Zero JS"
+    },
+    {
+      "name": "CryptLens Analytics",
+      "tagline": "Decentralized Liquidity & Token Portfolio Tracker",
+      "description": "Real-time algorithmic financial dashboard consolidating cross-chain liquidity pool analytics, slippage indicators, and historical gas price trends.",
+      "category": "Frontend/UI",
+      "featured": false,
+      "technologies": ["TypeScript", "Next.js", "Chart.js", "Ethers.js", "Tailwind CSS"],
+      "github": "https://github.com/abdulrehman-dev/cryptlens-analytics",
+      "demo": "https://cryptlens.example.com",
+      "stats": "$12M+ Tracked Volume"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2023-09",
+      "credentialId": "AWS-PSA-908124"
+    },
+    {
+      "name": "Meta Certified Front-End Developer Professional",
+      "issuer": "Meta / Coursera",
+      "issueDate": "2022-04",
+      "credentialId": "META-FED-77192"
+    },
+    {
+      "name": "Docker Certified Associate (DCA)",
+      "issuer": "Docker Inc.",
+      "issueDate": "2021-11",
+      "credentialId": "DCA-892150"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native / Bilingual Proficiency"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native"
+    },
+    {
+      "language": "German",
+      "fluency": "Elementary (A2)"
+    }
+  ]
+}
